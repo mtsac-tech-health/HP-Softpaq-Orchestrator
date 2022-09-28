@@ -1,0 +1,4 @@
+fastapi[all]
+black
+mypy
+flake8
