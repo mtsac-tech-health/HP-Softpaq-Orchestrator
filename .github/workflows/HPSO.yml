@@ -8,7 +8,7 @@ on:
 
 jobs:
 
-  lint, test, and mypy:
+  lint_test_mypy:
     runs-on: ubuntu-22.04
 
     steps:
