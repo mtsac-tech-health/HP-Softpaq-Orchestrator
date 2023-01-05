@@ -1,0 +1,19 @@
+[build-system]
+requires = ['setuptools>=64.0.0', 'wheel']
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'SoftPaqOrchestrator'
+version = '0.1.0a'
+requires-python = '>=3.10'
+dependencies = ['fastapi[all]']
+
+readme = 'README.md'
+license.file = 'LICENSE.txt'
+authors = [
+    {name = 'Rodrigo Luzuriaga', email = 'rodrigoluzuriaga@icloud.com'},
+    {name = 'Alex George', email = 'xzeroknightx@gmail.com'},
+]
+
+[project.urls]
+homepage = 'https://github.com/mtsac-tech-health/HP-Softpaq-Orchestrator'
