@@ -15,5 +15,18 @@ authors = [
     {name = 'Alex George', email = 'xzeroknightx@gmail.com'},
 ]
 
+[project.optional-dependencies]
+dev = ['black>=22.1.0', 'flake8', 'isort>=5.0.0', 'mypy', 'pytest>=6.0']
+
 [project.urls]
 homepage = 'https://github.com/mtsac-tech-health/HP-Softpaq-Orchestrator'
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = 'black'
+line_length = 120
+
+[tool.pytest.ini_options]
+addopts = ['--import-mode=importlib']
