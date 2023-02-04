@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from src.SoftPaqOrchestrator import logger
+from SoftPaqOrchestrator import logger
 
 
 LOGS_FILENAME = "log_tests.log"

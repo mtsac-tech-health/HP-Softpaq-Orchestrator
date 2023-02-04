@@ -1,5 +1,0 @@
-fastapi[all]
-black
-mypy
-flake8
-pytest

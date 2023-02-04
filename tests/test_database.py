@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from src.SoftPaqOrchestrator.database import Database, DatabaseCreationError
+from SoftPaqOrchestrator.database import Database, DatabaseCreationError
 
 
 class TestDatabase:
