@@ -2,7 +2,6 @@ from pathlib import Path
 
 from SoftPaqOrchestrator import logger
 
-
 LOGS_FILENAME = "log_tests.log"
 LOGS_PATH = Path.cwd() / "logs"
 

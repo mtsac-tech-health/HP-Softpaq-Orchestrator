@@ -16,9 +16,7 @@ class LoggingLevel(Enum):
     FATAL = logging.FATAL
 
 
-def start(
-    log_filename: str, logging_level: LoggingLevel = LoggingLevel.DEBUG
-) -> logging.Logger:
+def start(log_filename: str, logging_level: LoggingLevel = LoggingLevel.DEBUG) -> logging.Logger:
     if log_filename.endswith(FILE_SUFFIX):
         log_filename = log_filename[:-4]
 
