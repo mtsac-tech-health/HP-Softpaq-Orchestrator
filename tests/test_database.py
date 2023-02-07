@@ -3,7 +3,7 @@ from time import sleep
 
 import pytest
 
-from SoftPaqOrchestrator.database import Database, DatabaseCreationError
+from SoftpaqOrchestrator.database import Database, DatabaseCreationError
 
 
 class TestDatabase:

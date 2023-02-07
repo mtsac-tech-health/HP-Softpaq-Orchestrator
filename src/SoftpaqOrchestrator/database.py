@@ -1,7 +1,7 @@
 import sqlite3
 from pathlib import Path
 
-from SoftPaqOrchestrator import logger
+from SoftpaqOrchestrator import logger
 
 DATABASE_PATH = Path.cwd() / "database"
 DATABASE_FILE = DATABASE_PATH / "HPSO.db"
